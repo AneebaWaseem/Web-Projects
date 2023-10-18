@@ -8,7 +8,7 @@
         const timeRemaining = launchDate - now;
 
         const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)) * (days+1);
+        const hours = Math.floor(((timeRemaining % (1000 * 60 * 60 * 24))) / (1000 * 60 * 60) + ((days)*24));
         const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
