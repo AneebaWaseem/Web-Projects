@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+body{
+    background: rgb(5,5,5);
+    background: radial-gradient(circle, rgba(5,5,5,1) 0%, rgba(55,52,52,1) 100%, rgba(56,43,5,1) 100%);
+    /* background: rgb(117,107,107);
+background: radial-gradient(circle, rgba(117,107,107,1) 0%, rgba(34,32,32,1) 100%);
+background: rgb(64,63,61);
+background: linear-gradient(90deg, rgba(64,63,61,1) 0%, rgba(122,116,110,1) 50%, rgba(60,58,54,1) 100%); */
+    color:rgb(142, 142, 134);
+}
+.count{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+div{
+    margin: 3rem;
+}
+.intro{
+    margin: 10rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.intro img{
+    border-radius: 5%;
+    width: 40vw;
+}
+#countdown{
+    text-align: center;
+}
+.countdown-item{
+    display: inline;
+    background-color: black;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 20%;
+}
+.signUp a{
+    background-color: rgb(63, 62, 62);
+    box-shadow: 4px 4px 4px rgb(88, 88, 88);
+    padding: 1rem;
+    margin: 1.25rem;
+    border-radius: 10%;
+}
+.signUp a:hover{
+    background-color: rgb(89, 87, 87);
+    box-shadow: 0px 0px 10px silver;
+}
+a{
+    text-decoration: none;
+    color:rgb(142, 142, 134);  
+    font-size: 1.25rem;  
+}
+.introduce{
+    display: flex;
+    justify-content:space-between;
+}
+.signUp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.introduce img{
+    border-radius: 5%;
+    width: 30vw;
+    height: 70vh;
+}
+.history{
+    margin-top: 20rem;
+}
+.contact{
+    margin-top: 25rem;
+}
+.share{
+    margin: 2rem;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.social-icon {
+    display: inline-block;
+    font-size: 2rem;
+    color: #424141; /* Icon color */
+    margin: 0rem 2rem; /*Adjust spacing between icons */
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #666; /* Hover color */
+}
+
+footer{
+    background-color: black;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 7rem;
+
+}
+ul{
+    list-style: none;
+    display: block;
+    padding: 2rem;
+}
+li{
+    display: inline;
+    margin: 2rem;
+    font-size: 1.25rem;
+}
+
+
+@media (max-width: 850px) {
+    .countdown-item{
+        margin: 0.1rem;
+    }
+    div{
+        margin: 3rem 1rem;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro img{
+        width: 70vw;
+    }
+
+    .introduce{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .introduce img{
+        width: 70vw;
+    }
+}
