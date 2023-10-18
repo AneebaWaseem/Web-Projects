@@ -7,11 +7,7 @@
 
 body{
     background: rgb(5,5,5);
-    background: radial-gradient(circle, rgba(5,5,5,1) 0%, rgba(55,52,52,1) 100%, rgba(56,43,5,1) 100%);
-    /* background: rgb(117,107,107);
-background: radial-gradient(circle, rgba(117,107,107,1) 0%, rgba(34,32,32,1) 100%);
-background: rgb(64,63,61);
-background: linear-gradient(90deg, rgba(64,63,61,1) 0%, rgba(122,116,110,1) 50%, rgba(60,58,54,1) 100%); */
+    background: linear-gradient(90deg, rgba(5,5,5,1) 0%, rgba(45,43,43,1) 50%, rgba(45,43,43,1) 50%, rgba(5,5,5,1) 100%); 
     color:rgb(142, 142, 134);
 }
 .count{
