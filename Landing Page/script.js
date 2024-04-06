@@ -1,14 +1,6 @@
 
     // Set the launch date and time (adjust to your product launch date)
-const today = new Date();
-const tomorrow = new Date(today);
-tomorrow.setDate(today.getDate() + 1);
-tomorrow.setHours(0, 0, 0, 0);
-
-// console.log('Tomorrow:', tomorrow.toISOString());
-// console.log('Formatted for getTime:', new Date(tomorrow.toISOString()).getTime());
-
-    const launchDate = tomorrow.getTime();
+    const launchDate = new Date("2023-10-23T00:00:00").getTime().getTime();
 
     // Update the countdown every second
     const timer = setInterval(function () {
